@@ -1,0 +1,181 @@
+th, td {  
+  padding: 5px 0px 5px 0px; 
+  width: 100vw;
+  text-align: center;
+}  
+
+table th {  
+  color: white;  
+  background-color:  #31af91; 
+}  
+
+img{
+  margin: 0 10px 0 10px;
+}
+
+.primeira-coluna input[type=submit]{
+  background-color: #31af91;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+  margin: 0;
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+
+
+
+div#msg-erro{
+  color: red
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  position: fixed;
+  margin: 10px;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+section.primeira-coluna {
+  width: 55vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+section.segunda-coluna {
+  width: 35vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+}
+
+.segunda-coluna img {
+  margin-top: 30vh;
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  display: flex;
+
+}
+
+div {
+ text-align: center;  
+}
+
+
+
+.primeira-coluna input {
+  width: 250px;
+  height: 40px;
+  margin: 20px;
+  border: 0;
+  border-bottom: 1px solid #062e25;
+  background-color: transparent;
+
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #062e25;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #062e25;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: 10px;
+  color: #50ad99;
+}
+
+.recados input  {
+  width: 43vw;
+  height: 40px;
+  margin-top: 10px;
+  border: 0;
+}
+
+.recados input[type=submit]{
+  width: 10vw;
+  background-color: #31af91;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  margin-top: 30px;
+}
+
+.recados a{
+  font-size: 15px;
+  color: #062e25;
+  position: absolute;
+  top: 2vh;
+  right: 2vw;
+}
+
+.recados a:hover {
+  font-size: 15px;
+  color: #50ad99;
+  position: absolute;
+  top: 2vh;
+  right: 2vw;
+}
+
+.recados a{
+  font-size: 15px;
+  color: #062e25;
+  position: absolute;
+  top: 2vh;
+  right: 2vw;
+}
+
+#sair {
+  width: 100px;
+  color: black;
+}
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;    
+  text-align: center;
+  line-height: 50px;
+}
+
+p {
+  line-height: 20px;
+  font-size: 12px;
+}
+
+label {
+  color: #062e25;
+}
+

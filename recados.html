@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Recados</title>
+
+</head>
+
+<body class="recados">
+
+  <header>
+  <h3>MEUS RECADOS</h3>
+  <a href="./index.html"> Sair </a>
+  </header>
+
+  <main>
+  <div class="recados-formatar">
+    <form id="form-recados">
+
+      <input type="text" id="descricao" name="descricao" placeholder="Descrição">
+      <input type="text" id="detalhamento" name="detalhamento" placeholder="Detalhamento">
+      <input type="hidden" name="idx" id="idx" value="novo">
+      <input type="submit" value="Salvar">
+      
+    </form>
+    <div id="msg-erro"></div>
+  </div>
+
+  <br><br>
+
+  <table>
+
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Descrição</th>
+        <th>Detalhamento</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+
+    <tbody id="tbody"></tbody>
+
+  </table>
+</main>
+  <footer>
+    <div id="rodape">
+    <p>Copyright © 2022 - Todos os direitos reservados <br>
+    Danilo Coelho - Estudando de FullStack da Growdev </p>
+    </div>
+</footer>
+
+  <script src="js/recados_orig.js"></script>
+</body>
+
+</html>
